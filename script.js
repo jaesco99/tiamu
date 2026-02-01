@@ -41,11 +41,11 @@ function validateConfig() {
 // Default color values
 function getDefaultColor(key) {
     const defaults = {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#ff8787",
-        textColor: "#ff4757"
+          backgroundStart: "#E0F2FE",   // very light ice blue
+          backgroundEnd:   "#BAE6FD",   // soft blue
+          buttonBackground:"#2563EB",   // strong royal blue
+          buttonHover:     "#3B82F6",   // lighter hover
+          textColor:       "#0F172A"    // almost-black navy
     };
     return defaults[key];
 }
